@@ -1,0 +1,17 @@
+# Node modules
+cloud-drive-frontend/node_modules/
+cloud-drive-backend/node_modules/
+
+# Env files
+*.env
+
+# Uploads
+cloud-drive-backend/uploads/
+cloud-drive-backend/uploads_log.xlsx
+
+# Build files
+cloud-drive-frontend/build/
+
+# System files
+.DS_Store
+Thumbs.db

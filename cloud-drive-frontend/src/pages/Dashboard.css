@@ -1,0 +1,87 @@
+/* Dashboard.css */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard-wrapper {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Home Page Gradient */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.dashboard-container {
+  background: rgba(255, 255, 255, 0.05); /* Glass effect */
+  border-radius: 20px;
+  padding: 40px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Title styled like Home */
+.dashboard-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #00bcd4; /* Primary Accent */
+}
+
+/* File chooser and upload in one box */
+.upload-box {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 188, 212, 0.2); /* Light cyan shadow */
+}
+
+/* File Input */
+.file-input {
+  background-color: #ffffff;
+  color: #0f2027;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Upload Button */
+.upload-button {
+  padding: 10px;
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+  background-color: #0097a7; /* Slightly darker on hover */
+}
+
+/* Upload Message */
+.upload-message {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #ffeb3b;
+  word-break: break-word;
+}
+
+.upload-message a {
+  color: #80ffea;
+  text-decoration: underline;
+}
